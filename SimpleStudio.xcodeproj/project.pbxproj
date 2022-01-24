@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2304D54A1AC71FB90075AFF6 /* CSOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F82CA31A8651D000015D61 /* CSOverlayView.m */; };
+		230CDD8B1A17AC1C00F4A307 /* CStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 230CDD8A1A17AC1C00F4A307 /* CStatusManager.m */; };
+		2311F7051A20DDD40088F82E /* status_rec_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 2311F7011A20DDD40088F82E /* status_rec_inactive.png */; };
+		2311F7061A20DDD40088F82E /* status_rec_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 2311F7021A20DDD40088F82E /* status_rec_active.png */; };
+		2311F7071A20DDD40088F82E /* options_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2311F7031A20DDD40088F82E /* options_icon.png */; };
+		23218F4C1E5A53E60071A000 /* LicensingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23218F4A1E5A53E60071A000 /* LicensingController.m */; };
+		23218F4D1E5A53E60071A000 /* LicensingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23218F4B1E5A53E60071A000 /* LicensingController.xib */; };
+		23218F4F1E5A553B0071A000 /* Railroad-Construction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23218F4E1E5A553B0071A000 /* Railroad-Construction.jpg */; };
+		233781281A21767600BD33EF /* icon_folder-filled-grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 233781271A21767600BD33EF /* icon_folder-filled-grey.png */; };
+		23386DB81A9C5EC100DB019D /* CDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23386DB71A9C5EC100DB019D /* CDeviceManager.m */; };
+		2353501C1A2FB896004AA9C1 /* CSSettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2353501B1A2FB896004AA9C1 /* CSSettingsManager.m */; };
+		2360A8431A22903200D042F3 /* ControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2360A8421A22903200D042F3 /* ControlView.m */; };
+		236A25D41AD1D498007DD6F5 /* CSCopyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 236A25D31AD1D498007DD6F5 /* CSCopyView.m */; };
+		236A25D71AD31E76007DD6F5 /* CSCopyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 236A25D61AD31E76007DD6F5 /* CSCopyPath.m */; };
+		2378C76A1ADB205D007301D7 /* CSFtpController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2378C7671ADB205D007301D7 /* CSFtpController.m */; };
+		2378C76B1ADB205D007301D7 /* CSSNetworkOperationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2378C7681ADB205D007301D7 /* CSSNetworkOperationsController.m */; };
+		2381A1DE1F8ACF5A0015DD6A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2381A1DD1F8ACF5A0015DD6A /* AVFoundation.framework */; };
+		2399AE3B1A10733500B0FED7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2399AE3A1A10733500B0FED7 /* main.m */; };
+		2399AE3E1A10733500B0FED7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2399AE3D1A10733500B0FED7 /* AppDelegate.m */; };
+		2399AE401A10733500B0FED7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2399AE3F1A10733500B0FED7 /* Images.xcassets */; };
+		2399AE431A10733600B0FED7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2399AE411A10733600B0FED7 /* MainMenu.xib */; };
+		2399AE4F1A10733600B0FED7 /* SimpleStudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2399AE4E1A10733600B0FED7 /* SimpleStudioTests.m */; };
+		2399AE5A1A1074B800B0FED7 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2399AE591A1074B800B0FED7 /* AppController.m */; };
+		23A00B941A1AD64000D7FBC7 /* SimpleStudio-entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23A00B931A1AD64000D7FBC7 /* SimpleStudio-entitlements.plist */; };
+		23C1B6571ADD85E8000F2A87 /* FTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C1B6561ADD85E8000F2A87 /* FTPManager.m */; };
+		23D161341A5715B200B1D25E /* activeBtnBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D161331A5715B200B1D25E /* activeBtnBg.png */; };
+		23D161391A57235500B1D25E /* btnUnPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D161381A57235500B1D25E /* btnUnPressed.png */; };
+		23EB34E51AC82B1E0033DFB9 /* Statuses.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23EB34E41AC82B1E0033DFB9 /* Statuses.strings */; };
+		23EB34E71AC88F300033DFB9 /* Statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23EB34E61AC88F300033DFB9 /* Statuses.plist */; };
+		23F0D0681A23BE1500E1FE38 /* CSSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0D0671A23BE1500E1FE38 /* CSSView.m */; };
+		23F82CA11A85EE9D00015D61 /* fullScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 23F82CA01A85EE9D00015D61 /* fullScreen.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2399AE491A10733600B0FED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2399AE2D1A10733500B0FED7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2399AE341A10733500B0FED7;
+			remoteInfo = SimpleStudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		230CDD891A17AC1C00F4A307 /* CStatusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CStatusManager.h; sourceTree = "<group>"; };
+		230CDD8A1A17AC1C00F4A307 /* CStatusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CStatusManager.m; sourceTree = "<group>"; };
+		2311F7011A20DDD40088F82E /* status_rec_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_rec_inactive.png; sourceTree = "<group>"; };
+		2311F7021A20DDD40088F82E /* status_rec_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_rec_active.png; sourceTree = "<group>"; };
+		2311F7031A20DDD40088F82E /* options_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = options_icon.png; sourceTree = "<group>"; };
+		23218F491E5A53E60071A000 /* LicensingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicensingController.h; sourceTree = "<group>"; };
+		23218F4A1E5A53E60071A000 /* LicensingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicensingController.m; sourceTree = "<group>"; };
+		23218F4B1E5A53E60071A000 /* LicensingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LicensingController.xib; sourceTree = "<group>"; };
+		23218F4E1E5A553B0071A000 /* Railroad-Construction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Railroad-Construction.jpg"; sourceTree = "<group>"; };
+		233781271A21767600BD33EF /* icon_folder-filled-grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_folder-filled-grey.png"; sourceTree = "<group>"; };
+		23386DB61A9C5EC100DB019D /* CDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDeviceManager.h; sourceTree = "<group>"; };
+		23386DB71A9C5EC100DB019D /* CDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDeviceManager.m; sourceTree = "<group>"; };
+		2353501A1A2FB896004AA9C1 /* CSSettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSettingsManager.h; sourceTree = "<group>"; };
+		2353501B1A2FB896004AA9C1 /* CSSettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSettingsManager.m; sourceTree = "<group>"; };
+		2360A8411A22903200D042F3 /* ControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlView.h; sourceTree = "<group>"; };
+		2360A8421A22903200D042F3 /* ControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlView.m; sourceTree = "<group>"; };
+		236A25D21AD1D498007DD6F5 /* CSCopyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCopyView.h; sourceTree = "<group>"; };
+		236A25D31AD1D498007DD6F5 /* CSCopyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCopyView.m; sourceTree = "<group>"; };
+		236A25D51AD31E76007DD6F5 /* CSCopyPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCopyPath.h; sourceTree = "<group>"; };
+		236A25D61AD31E76007DD6F5 /* CSCopyPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCopyPath.m; sourceTree = "<group>"; };
+		2378C7661ADB205D007301D7 /* CSFtpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSFtpController.h; sourceTree = "<group>"; };
+		2378C7671ADB205D007301D7 /* CSFtpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSFtpController.m; sourceTree = "<group>"; };
+		2378C7681ADB205D007301D7 /* CSSNetworkOperationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSNetworkOperationsController.m; sourceTree = "<group>"; };
+		2378C7691ADB205D007301D7 /* CSSNetworkOperationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSNetworkOperationsController.h; sourceTree = "<group>"; };
+		2381A1DD1F8ACF5A0015DD6A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2399AE351A10733500B0FED7 /* SimpleStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2399AE391A10733500B0FED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2399AE3A1A10733500B0FED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2399AE3C1A10733500B0FED7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2399AE3D1A10733500B0FED7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2399AE3F1A10733500B0FED7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2399AE421A10733600B0FED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2399AE481A10733600B0FED7 /* SimpleStudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2399AE4D1A10733600B0FED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2399AE4E1A10733600B0FED7 /* SimpleStudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleStudioTests.m; sourceTree = "<group>"; };
+		2399AE581A1074B800B0FED7 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		2399AE591A1074B800B0FED7 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		23A00B921A1AD42F00D7FBC7 /* SimpleStudio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SimpleStudio.entitlements; sourceTree = "<group>"; };
+		23A00B931A1AD64000D7FBC7 /* SimpleStudio-entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleStudio-entitlements.plist"; sourceTree = "<group>"; };
+		23C1B6551ADD85E8000F2A87 /* FTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPManager.h; sourceTree = "<group>"; };
+		23C1B6561ADD85E8000F2A87 /* FTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPManager.m; sourceTree = "<group>"; };
+		23D161331A5715B200B1D25E /* activeBtnBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = activeBtnBg.png; sourceTree = "<group>"; };
+		23D161381A57235500B1D25E /* btnUnPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnUnPressed.png; sourceTree = "<group>"; };
+		23EB34E41AC82B1E0033DFB9 /* Statuses.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Statuses.strings; sourceTree = "<group>"; };
+		23EB34E61AC88F300033DFB9 /* Statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Statuses.plist; sourceTree = "<group>"; };
+		23F0D0661A23BE1500E1FE38 /* CSSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSView.h; sourceTree = "<group>"; };
+		23F0D0671A23BE1500E1FE38 /* CSSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSView.m; sourceTree = "<group>"; };
+		23F82CA01A85EE9D00015D61 /* fullScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullScreen.png; sourceTree = "<group>"; };
+		23F82CA21A8651D000015D61 /* CSOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSOverlayView.h; sourceTree = "<group>"; };
+		23F82CA31A8651D000015D61 /* CSOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSOverlayView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2399AE321A10733500B0FED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2381A1DE1F8ACF5A0015DD6A /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2399AE451A10733600B0FED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2304D5451AC710160075AFF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2360A8411A22903200D042F3 /* ControlView.h */,
+				2360A8421A22903200D042F3 /* ControlView.m */,
+				23F0D0661A23BE1500E1FE38 /* CSSView.h */,
+				23F0D0671A23BE1500E1FE38 /* CSSView.m */,
+				23F82CA21A8651D000015D61 /* CSOverlayView.h */,
+				23F82CA31A8651D000015D61 /* CSOverlayView.m */,
+				236A25D21AD1D498007DD6F5 /* CSCopyView.h */,
+				236A25D31AD1D498007DD6F5 /* CSCopyView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2311F7001A20DDB30088F82E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				23218F4E1E5A553B0071A000 /* Railroad-Construction.jpg */,
+				23F82CA01A85EE9D00015D61 /* fullScreen.png */,
+				23D161381A57235500B1D25E /* btnUnPressed.png */,
+				23D161331A5715B200B1D25E /* activeBtnBg.png */,
+				233781271A21767600BD33EF /* icon_folder-filled-grey.png */,
+				2311F7011A20DDD40088F82E /* status_rec_inactive.png */,
+				2311F7021A20DDD40088F82E /* status_rec_active.png */,
+				2311F7031A20DDD40088F82E /* options_icon.png */,
+				23EB34E41AC82B1E0033DFB9 /* Statuses.strings */,
+				23EB34E61AC88F300033DFB9 /* Statuses.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		236D99151AECE262008EFC6E /* FTPOperations */ = {
+			isa = PBXGroup;
+			children = (
+				23C1B6551ADD85E8000F2A87 /* FTPManager.h */,
+				23C1B6561ADD85E8000F2A87 /* FTPManager.m */,
+				2378C7661ADB205D007301D7 /* CSFtpController.h */,
+				2378C7671ADB205D007301D7 /* CSFtpController.m */,
+				2378C7681ADB205D007301D7 /* CSSNetworkOperationsController.m */,
+				2378C7691ADB205D007301D7 /* CSSNetworkOperationsController.h */,
+			);
+			name = FTPOperations;
+			sourceTree = "<group>";
+		};
+		2381A1DA1F8ACAC70015DD6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2381A1DD1F8ACF5A0015DD6A /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2399AE2C1A10733500B0FED7 = {
+			isa = PBXGroup;
+			children = (
+				2399AE371A10733500B0FED7 /* SimpleStudio */,
+				2399AE4B1A10733600B0FED7 /* SimpleStudioTests */,
+				2399AE361A10733500B0FED7 /* Products */,
+				2381A1DA1F8ACAC70015DD6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2399AE361A10733500B0FED7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2399AE351A10733500B0FED7 /* SimpleStudio.app */,
+				2399AE481A10733600B0FED7 /* SimpleStudioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2399AE371A10733500B0FED7 /* SimpleStudio */ = {
+			isa = PBXGroup;
+			children = (
+				236D99151AECE262008EFC6E /* FTPOperations */,
+				2304D5451AC710160075AFF6 /* Views */,
+				2399AE581A1074B800B0FED7 /* AppController.h */,
+				2399AE591A1074B800B0FED7 /* AppController.m */,
+				2353501A1A2FB896004AA9C1 /* CSSettingsManager.h */,
+				2353501B1A2FB896004AA9C1 /* CSSettingsManager.m */,
+				23386DB61A9C5EC100DB019D /* CDeviceManager.h */,
+				23386DB71A9C5EC100DB019D /* CDeviceManager.m */,
+				236A25D51AD31E76007DD6F5 /* CSCopyPath.h */,
+				236A25D61AD31E76007DD6F5 /* CSCopyPath.m */,
+				230CDD891A17AC1C00F4A307 /* CStatusManager.h */,
+				230CDD8A1A17AC1C00F4A307 /* CStatusManager.m */,
+				2399AE3C1A10733500B0FED7 /* AppDelegate.h */,
+				2399AE3D1A10733500B0FED7 /* AppDelegate.m */,
+				2399AE411A10733600B0FED7 /* MainMenu.xib */,
+				23A00B921A1AD42F00D7FBC7 /* SimpleStudio.entitlements */,
+				2399AE3F1A10733500B0FED7 /* Images.xcassets */,
+				2399AE381A10733500B0FED7 /* Supporting Files */,
+				2311F7001A20DDB30088F82E /* Resources */,
+				23218F491E5A53E60071A000 /* LicensingController.h */,
+				23218F4A1E5A53E60071A000 /* LicensingController.m */,
+				23218F4B1E5A53E60071A000 /* LicensingController.xib */,
+			);
+			path = SimpleStudio;
+			sourceTree = "<group>";
+		};
+		2399AE381A10733500B0FED7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2399AE391A10733500B0FED7 /* Info.plist */,
+				2399AE3A1A10733500B0FED7 /* main.m */,
+				23A00B931A1AD64000D7FBC7 /* SimpleStudio-entitlements.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2399AE4B1A10733600B0FED7 /* SimpleStudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				2399AE4E1A10733600B0FED7 /* SimpleStudioTests.m */,
+				2399AE4C1A10733600B0FED7 /* Supporting Files */,
+			);
+			path = SimpleStudioTests;
+			sourceTree = "<group>";
+		};
+		2399AE4C1A10733600B0FED7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2399AE4D1A10733600B0FED7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2399AE341A10733500B0FED7 /* SimpleStudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2399AE521A10733600B0FED7 /* Build configuration list for PBXNativeTarget "SimpleStudio" */;
+			buildPhases = (
+				2399AE311A10733500B0FED7 /* Sources */,
+				2399AE321A10733500B0FED7 /* Frameworks */,
+				2399AE331A10733500B0FED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleStudio;
+			productName = SimpleStudio;
+			productReference = 2399AE351A10733500B0FED7 /* SimpleStudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2399AE471A10733600B0FED7 /* SimpleStudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2399AE551A10733600B0FED7 /* Build configuration list for PBXNativeTarget "SimpleStudioTests" */;
+			buildPhases = (
+				2399AE441A10733600B0FED7 /* Sources */,
+				2399AE451A10733600B0FED7 /* Frameworks */,
+				2399AE461A10733600B0FED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2399AE4A1A10733600B0FED7 /* PBXTargetDependency */,
+			);
+			name = SimpleStudioTests;
+			productName = SimpleStudioTests;
+			productReference = 2399AE481A10733600B0FED7 /* SimpleStudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2399AE2D1A10733500B0FED7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = centurion;
+				TargetAttributes = {
+					2399AE341A10733500B0FED7 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = D44Q3S74AF;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
+							com.apple.NetworkExtensions = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					2399AE471A10733600B0FED7 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 2399AE341A10733500B0FED7;
+					};
+				};
+			};
+			buildConfigurationList = 2399AE301A10733500B0FED7 /* Build configuration list for PBXProject "SimpleStudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				English,
+				da,
+				de,
+				fr,
+				it,
+				ja,
+				zh_CN,
+				zh_TW,
+				es,
+				pt_BR,
+			);
+			mainGroup = 2399AE2C1A10733500B0FED7;
+			productRefGroup = 2399AE361A10733500B0FED7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2399AE341A10733500B0FED7 /* SimpleStudio */,
+				2399AE471A10733600B0FED7 /* SimpleStudioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2399AE331A10733500B0FED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EB34E71AC88F300033DFB9 /* Statuses.plist in Resources */,
+				23D161391A57235500B1D25E /* btnUnPressed.png in Resources */,
+				2311F7051A20DDD40088F82E /* status_rec_inactive.png in Resources */,
+				23EB34E51AC82B1E0033DFB9 /* Statuses.strings in Resources */,
+				2311F7061A20DDD40088F82E /* status_rec_active.png in Resources */,
+				233781281A21767600BD33EF /* icon_folder-filled-grey.png in Resources */,
+				23A00B941A1AD64000D7FBC7 /* SimpleStudio-entitlements.plist in Resources */,
+				2311F7071A20DDD40088F82E /* options_icon.png in Resources */,
+				23218F4F1E5A553B0071A000 /* Railroad-Construction.jpg in Resources */,
+				2399AE401A10733500B0FED7 /* Images.xcassets in Resources */,
+				23D161341A5715B200B1D25E /* activeBtnBg.png in Resources */,
+				2399AE431A10733600B0FED7 /* MainMenu.xib in Resources */,
+				23F82CA11A85EE9D00015D61 /* fullScreen.png in Resources */,
+				23218F4D1E5A53E60071A000 /* LicensingController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2399AE461A10733600B0FED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2399AE311A10733500B0FED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2378C76B1ADB205D007301D7 /* CSSNetworkOperationsController.m in Sources */,
+				2378C76A1ADB205D007301D7 /* CSFtpController.m in Sources */,
+				2304D54A1AC71FB90075AFF6 /* CSOverlayView.m in Sources */,
+				23218F4C1E5A53E60071A000 /* LicensingController.m in Sources */,
+				2353501C1A2FB896004AA9C1 /* CSSettingsManager.m in Sources */,
+				230CDD8B1A17AC1C00F4A307 /* CStatusManager.m in Sources */,
+				2360A8431A22903200D042F3 /* ControlView.m in Sources */,
+				236A25D71AD31E76007DD6F5 /* CSCopyPath.m in Sources */,
+				23F0D0681A23BE1500E1FE38 /* CSSView.m in Sources */,
+				23C1B6571ADD85E8000F2A87 /* FTPManager.m in Sources */,
+				236A25D41AD1D498007DD6F5 /* CSCopyView.m in Sources */,
+				23386DB81A9C5EC100DB019D /* CDeviceManager.m in Sources */,
+				2399AE3E1A10733500B0FED7 /* AppDelegate.m in Sources */,
+				2399AE3B1A10733500B0FED7 /* main.m in Sources */,
+				2399AE5A1A1074B800B0FED7 /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2399AE441A10733600B0FED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2399AE4F1A10733600B0FED7 /* SimpleStudioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2399AE4A1A10733600B0FED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2399AE341A10733500B0FED7 /* SimpleStudio */;
+			targetProxy = 2399AE491A10733600B0FED7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2399AE411A10733600B0FED7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2399AE421A10733600B0FED7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2399AE501A10733600B0FED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2399AE511A10733600B0FED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2399AE531A10733600B0FED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimpleStudio/SimpleStudio.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D44Q3S74AF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SimpleStudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = AutomagicLab.SimpleStudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		2399AE541A10733600B0FED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimpleStudio/SimpleStudio.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D44Q3S74AF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SimpleStudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = AutomagicLab.SimpleStudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		2399AE561A10733600B0FED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleStudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "MegaToolMaster.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleStudio.app/Contents/MacOS/SimpleStudio";
+			};
+			name = Debug;
+		};
+		2399AE571A10733600B0FED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleStudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "MegaToolMaster.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleStudio.app/Contents/MacOS/SimpleStudio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2399AE301A10733500B0FED7 /* Build configuration list for PBXProject "SimpleStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2399AE501A10733600B0FED7 /* Debug */,
+				2399AE511A10733600B0FED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2399AE521A10733600B0FED7 /* Build configuration list for PBXNativeTarget "SimpleStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2399AE531A10733600B0FED7 /* Debug */,
+				2399AE541A10733600B0FED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2399AE551A10733600B0FED7 /* Build configuration list for PBXNativeTarget "SimpleStudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2399AE561A10733600B0FED7 /* Debug */,
+				2399AE571A10733600B0FED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2399AE2D1A10733500B0FED7 /* Project object */;
+}

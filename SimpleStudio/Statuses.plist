@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cm_HOOK_REC_INACTIVE</key>
+	<string>Press record button or space key to start recording</string>
+	<key>cm_NOHOOK_REC_INACTIVE</key>
+	<string>Press record button to start recording</string>
+	<key>cm_REC_ACTIVE</key>
+	<string>Recording...</string>
+	<key>im_REC_SAVE_SUCCESS</key>
+	<string>File was saved to: </string>
+	<key>im_REC_SAVE_FAIL</key>
+	<string>File was not saved due to error.</string>
+	<key>im_SAVING</key>
+	<string>Saving file to: </string>
+	<key>im_WILLBE_SAVED</key>
+	<string>Recording will be saved to: </string>
+	<key>im_FLASH_REC_DRIVE_UNAVAILABLE</key>
+	<string>Disk drive available. </string>
+	<key>im_FLASH_REC_DRIVE_AVAILABLE</key>
+	<string>Disk drive unavailable. </string>
+	<key>im_FTP_REC_BASE</key>
+	<string>Recording will be copied to ftp server </string>
+	<key>im_FTP_CONNECTING</key>
+	<string>Connecting to </string>
+	<key>im_FTP_CONNECTION_SUCCESS</key>
+	<string>Connected to </string>
+	<key>im_FTP_CONNECTION_FAILURE</key>
+	<string>FTP connection failure.</string>
+	<key>im_FTP_UPLOADING</key>
+	<string>Uploading file to </string>
+	<key>im_FTP_SAVE_SUCCESS</key>
+	<string>File uploaded to </string>
+	<key>im_FTP_SAVE_FAILURE</key>
+	<string>Failed to upload the file.</string>
+	<key>im_FTP_INVALID_URL</key>
+	<string>FTP address is invalid. Check the FTP settings.</string>
+</dict>
+</plist>

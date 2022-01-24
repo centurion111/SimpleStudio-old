@@ -1,0 +1,29 @@
+/* 
+  Statuses.strings
+  SimpleStudio
+
+  Created by centurion on 3/29/15.
+  Copyright (c) 2015 centurion. All rights reserved.
+*/
+
+"cm_HOOK_REC_INACTIVE" = "Press record button to start recording";
+"cm_NOHOOK_REC_INACTIVE" = "Press record button or space key to start recording";
+"cm_REC_ACTIVE" = "Recording...";
+
+"im_REC_SAVE_SUCCESS" = "File was saved to: ";
+"im_REC_SAVE_FAIL" = "File was not saved due to error.";
+"im_SAVING" = "Saving fie to: ";
+"im_WILLBE_SAVED" = "Recording will be saved to: ";
+
+
+"im_FLASH_REC_DRIVE_UNAVAILABLE" = "Disk drive available. ";
+"im_FLASH_REC_DRIVE_AVAILABLE" = "Disk drive unavailable. ";
+
+"im_FTP_REC_BASE" = "Recording will be copied to ftp server ";
+"im_FTP_CONNECTING" = "Connecting to ";
+"im_FTP_CONNECTION_SUCCESS" = "Connected to ";
+"im_FTP_CONNECTION_FAILURE" = "FTP connection failure.";
+"im_FTP_UPLOADING" = "Uploading file to ";
+"im_FTP_SAVE_SUCCESS" = "File uploaded to ";
+"im_FTP_SAVE_FAILURE" = "Failed to upload the file.";
+
